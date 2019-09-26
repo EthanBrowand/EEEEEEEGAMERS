@@ -1,3 +1,19 @@
-h1 {
-  color:hsl(105, 100%, 50%);
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: hsla(267, 100%, 0%);
+  color: hsla(267, 100%, 50%);;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+}
+
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-right {
+  color: hsla(105, 100%, 50%)
 }
