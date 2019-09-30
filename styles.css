@@ -8,8 +8,20 @@
   color: hsla(105, 100%, 50%)
 }
 
-.btn {
-  background-color: hsla(270, 100%, 0%, 1);
-  color: hsla(105, 100%, 50%)
+.btn.btn-outline-success {
+  background-color: hsla(105, 100%, 0%, 1);
+  color: hsla(105, 100%, 50%, 1);
+  border: 0px;
+  text-transform: uppercase;
+}
 
+}
+
+.nav-item .active li {
+  background-color: hsla(270, 100%, 50%, 1);
+  color: hsla(270, 100%, 50%, 1);
+}
+
+.bg-dark {
+  background-color: hsla(270, 100%, 0%, 1);
 }
