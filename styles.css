@@ -16,7 +16,14 @@
   text-transform:
 }
 
-
+.vr {
+    width:1px;
+    background-color: hsla(105, 100%, 50%, 1);
+    position:absolute;
+    top:25px;
+    bottom:22px;
+    left:340px;
+}
 
 }
 
@@ -30,6 +37,7 @@
 }
 
 .nav-item {
+  
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
@@ -43,7 +51,7 @@
   background-color: hsla(360, 100%, 0%, 1);
 }
 
-.horizontalbreak {
-  background-color: hsla(360, 100%, 100%, 1);
-  color: hsla(360, 100%, 100%, 1);
+.horizontalbreakgreen {
+  background-color: hsla(105, 100%, 50%, 1);
+  color: hsla(105, 100%, 50%, 1);
 }
