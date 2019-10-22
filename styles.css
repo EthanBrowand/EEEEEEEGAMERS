@@ -1,5 +1,6 @@
 .navbar {
   background-color: hsla(270, 100%, 0%, 1);
+  position: sticky; 
 
 }
 
@@ -27,7 +28,7 @@
     left:340px;
 }
 
-}
+
 
 .nav-item .active li {
   background-color: hsla(270, 100%, 50%, 1);
@@ -58,4 +59,9 @@
 .horizontalbreakgreen {
   background-color: hsla(105, 100%, 50%, 1);
   color: hsla(105, 100%, 50%, 1);
+}
+
+.flex-container{
+  display:flex;
+  
 }
