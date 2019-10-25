@@ -4,7 +4,7 @@
 
 }
 
-#navbar-toggler-icon
+
 
 .collapse .navbar-collapse {
   background-color: hsla(270, 100%, 0%, 1);
@@ -19,15 +19,6 @@
   border: 0px;
   text-transform: uppercase;
 
-}
-
-.vr {
-    width:1px;
-    background-color: hsla(105, 100%, 50%, 1);
-    position:absolute;
-    top:25px;
-    bottom:22px;
-    left:340px;
 }
 
 
@@ -63,7 +54,7 @@
   color: hsla(105, 100%, 50%, 1);
 }
 
-.flex-container{
+.flex-container {
   display:flex;
   height: 200px;
   align-items: center;
