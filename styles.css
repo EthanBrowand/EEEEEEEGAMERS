@@ -68,3 +68,21 @@
   color: hsla(105, 100%, 50%, 1);
   
 }
+
+.nav-item .active li {
+  background-color: hsla(270, 100%, 50%, 1);
+  color: hsla(270, 100%, 50%, 1);
+}
+
+.bg-dark {
+  background-color: hsla(270, 100%, 0%, 1);
+}
+
+.nav-item {
+  font-size: 20px;
+  border-left: 1px solid hsla(105, 100%, 50%, 2);
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
