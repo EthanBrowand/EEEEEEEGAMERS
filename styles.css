@@ -1,3 +1,12 @@
+
+
+
+.BODYY {
+  background-color: hsla(360, 100%, 0%, 1);
+}
+
+
+
 .navbar {
   background-color: hsla(270, 100%, 0%, 1);
   position: sticky; 
@@ -53,9 +62,7 @@
   width: 100%;
 }
 
-.BODYY {
-  background-color: hsla(360, 100%, 0%, 1);
-}
+
 
 .horizontalbreakgreen {
   background-color: hsla(105, 100%, 50%, 1);
