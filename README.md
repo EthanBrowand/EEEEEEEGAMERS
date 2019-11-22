@@ -9,7 +9,7 @@ remove spaces in image file names
 
 add description, author, and keyword meta to head of all pages
 
-add a header (above nav)
+add a header 
 
 remove the carousel from games.html
 
