@@ -47,6 +47,6 @@ make sure to add the footer on every page
 
 make sure all links work properly
 
-
+for store page just take images from official website and put prices under them
 
 
