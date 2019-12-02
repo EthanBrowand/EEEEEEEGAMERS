@@ -1,15 +1,6 @@
-
-
-
-.BODYY {
-  background-color: hsla(360, 100%, 0%, 1);
-}
-
-
-
 .navbar {
   background-color: hsla(270, 100%, 0%, 1);
-  position: sticky; 
+  position: sticky;
 
 }
 
@@ -50,72 +41,45 @@
   margin-right: 20px;
 }
 
-.Menu-img {
-  border-style: solid;
-  border-color: hsla(105, 100%, 50%, 1);
-  border-width: 4px;
-  border-radius: 20px;
-  padding: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.nav-item-logo {
+  padding-right:
 }
 
-
+.BODYY {
+  background-color: hsla(360, 100%, 0%, 1);
+}
 
 .horizontalbreakgreen {
   background-color: hsla(105, 100%, 50%, 1);
   color: hsla(105, 100%, 50%, 1);
 }
 
-
-.menu-header {
-  text-align: center;
-  color: hsla(105, 100%, 50%, 1);
-  font-family: 'Bebas Neue', cursive;
+.flex-container {
+  display:flex;
+  height: 200px;
+  align-items: center;
 }
 
-.foodlist {
-  color: hsla(105, 100%, 50%, 1);
-  
+.carousel-inner {
+  height: 55vh;
 }
 
-.nav-item .active li {
-  background-color: hsla(270, 100%, 50%, 1);
-  color: hsla(270, 100%, 50%, 1);
-}
-
-.bg-dark {
-  background-color: hsla(270, 100%, 0%, 1);
-}
-
-.nav-item {
-  font-size: 20px;
-  border-left: 1px solid hsla(105, 100%, 50%, 2);
-  padding-left: 30px;
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.carousel-slide {
+.carousel-inner {
   position: absolute;
   top: 50%;
   left: 50%;
-  right:50%;
-  
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   max-height: 800px;
   width: inherit;
 }
-
-
-
 .carousel-item {
   max-height: 800px;
   background-size: cover;
   height: 50%;
-  width: 100%;
+  width: 50%;
+
 }
 
 
