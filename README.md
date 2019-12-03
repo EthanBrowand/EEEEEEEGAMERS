@@ -1,3 +1,15 @@
+You did not assign anything on this list to you group members 
+
+1. You don't need a link to bootstrap.js if the file doesn't exist in your repo
+2. Your css file is not organized
+3. You have extra titles in the head
+4. The head is disorganized. You need to have meta first, then title, then links with styles.css last
+5. Beautify your code
+6. No meta has been added in the head
+7. Need to make adjustments with media queries for responsiveness
+8. Check your list below. One thing at a time and assign to group members
+
+
 
 # EEEEEEEGAMERS
 
