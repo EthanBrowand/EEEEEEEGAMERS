@@ -1,6 +1,6 @@
 .navbar {
   background-color: hsla(270, 100%, 0%, 1);
-  position: sticky;
+  position: static;
 
 }
 
@@ -40,15 +40,16 @@
   background-color: hsla(270, 100%, 0%, 1);
 }
 
-.nav-item {
-  font-size: 20px;
-  border-left: 1px solid hsla(105, 100%, 50%, 2);
-  padding-left: 30px;
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+.carousel-inner > .active {
+  width: auto;
+  height: auto;
 }
 
+
+.carousel-inner > .item {
+  width: auto;
+  height: auto;
+}
 
 
 .BODYY {
@@ -60,33 +61,6 @@
   color: hsla(105, 100%, 50%, 1);
 }
 
-.flex-container {
-  display:flex;
-  height: 200px;
-  align-items: center;
-}
-
-.carousel-inner {
-  height: 55vh;
-}
-
-.carousel-inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  max-height: 800px;
-  width: inherit;
-}
-.carousel-item {
-  max-height: 800px;
-  background-size: cover;
-  height: 50%;
-  width: 50%;
-
-}
 
 
 .h2{
@@ -139,19 +113,16 @@
   width: 25%;
 }
 
-.footer {
-  border-style: solid;
-  border-color: hsla(105, 100%, 50%, 1);
-  border-width: 2px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 15%;
-  background-color: rgb(10, 43, 0);
-  color: hsla(105, 100%, 50%, 1);
-  text-align: center;
+.nav-item {
+  font-size: 20px;
+  border-left: 1px solid hsla(105, 100%, 50%, 2);
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
+
 
 .instalogo {
   height: 30px;
@@ -194,6 +165,20 @@
   border-radius: 3px;
   text-align: center;
   color: hsla(105, 100%, 50%, 1);
-  margin-left: 540px;
-  margin-right: 540px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.footer {
+  border-style: solid;
+  border-color: hsla(105, 100%, 50%, 1);
+  border-width: 2px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: rgb(10, 43, 0);
+  color: hsla(105, 100%, 50%, 1);
+  text-align: center;
 }
