@@ -31,10 +31,6 @@
   width: 80%;
 }
 
-.nav-item .active li {
-  background-color: hsla(270, 100%, 50%, 1);
-  color: hsla(270, 100%, 50%, 1);
-}
 
 .bg-dark {
   background-color: hsla(270, 100%, 0%, 1);
