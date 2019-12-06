@@ -109,6 +109,13 @@
   width: 25%;
 }
 
+.welcome {
+  text-align: center;
+  color: hsla(105, 100%, 50%, 1);
+  text-decoration: underline;
+  font-family: 'Bebas Neue';
+}
+
 .nav-item {
   font-size: 20px;
   border-left: 1px solid hsla(105, 100%, 50%, 2);
@@ -118,7 +125,10 @@
   margin-right: 20px;
 }
 
-
+.about2 {
+  text-align: center;
+  color: hsla(105, 100%, 50%, 1);
+}
 
 .instalogo {
   height: 30px;
@@ -178,3 +188,4 @@
   color: hsla(105, 100%, 50%, 1);
   text-align: center;
 }
+
